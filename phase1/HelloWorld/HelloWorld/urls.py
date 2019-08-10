@@ -25,5 +25,8 @@ from .views.view_direct import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('vdhello/', vdhello)
+    path('vdhello/', vdhello),
+    path('vdhtml1/', vdhtml1),
+    path('vdhtml2/', vdhtml2),
+    path('vdhtml3/', vdhtml3),
 ]
