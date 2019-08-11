@@ -31,5 +31,4 @@ urlpatterns = [
     path('vihtml1/', vihtml1),
     path('vihtml2/', vihtml2),
     path('vihtml3/', vihtml3),
-    path('vthtml1/', vthtml1),
 ]
