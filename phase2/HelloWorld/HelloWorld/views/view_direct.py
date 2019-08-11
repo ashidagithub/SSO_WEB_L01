@@ -73,7 +73,6 @@ def vdhtml3(request):
 
     return HttpResponse(s_total)
 
-
 def index(request):
     '将 vd1-3 html 放进目录'
 
@@ -85,7 +84,10 @@ def index(request):
     s_body = '<h3>目录</h3>'
     s_body += '<p><a href="/vdhtml1">第一个练习</a></p>\n'
     s_body += '<p><a href="/vdhtml2">第二个练习</a></p>\n'
-    s_body += '<p><a href="/vdhtml3">第三个练习</a></p>\n'
+    s_body += '<p><a href="/vdhtml3">外部链接练习</a></p>\n'
+    s_body += '<p><a href="/vihtml1">图片练习一</a></p>\n'
+    s_body += '<p><a href="/vihtml2">图片练习二（带外部链接）</a></p>\n'
+    s_body += '<p><a href="/vihtml3">图片练习三（分区域链接）</a></p>\n'
 
     s_body_suffix = '</body>\n'
     s_html_suffix = '</html>\n'

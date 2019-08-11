@@ -16,11 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-'''
-import sys
-sys.path.append('..')
-'''
+# 引入 views 函数
 from .views.view_direct import *
+from .views.view_imgs import *
 #from HelloWorld.views.view_direct import *
 
 urlpatterns = [
@@ -30,4 +28,7 @@ urlpatterns = [
     path('vdhtml2/', vdhtml2),
     path('vdhtml3/', vdhtml3),
     path('index/', index),
+    path('vihtml1/', vihtml1),
+    path('vihtml2/', vihtml2),
+    path('vihtml3/', vihtml3),
 ]
