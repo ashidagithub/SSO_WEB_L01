@@ -69,31 +69,3 @@ def index(request):
         s_body + s_body_suffix + s_html_suffix
 
     return HttpResponse(s_total)
-
-def vthtml1(request):
-    '学习一些常用的 HTML 表格设置方法'
-
-    s0 = '<!DOCTYPE html>\n'
-    s_html_prefix = '<html>\n'
-    s_head = '<head><meta charset="utf-8"><title>良爸教程2019</title></head>\n'
-    s_body_prefix = '<body>\n'
-
-    # ----- 学习表格 ▼----------------------------------
-    s_body = '<h3>练习表格</h3>\n'
-
-    s_body += '<table width="100%" border="1" cellspacing="0" cellpadding="0" align="center">'
-
-    s_body += '<caption>表格的标题-表格常用设置</caption>'
-
-
-    s_body += '</table>'
-
-    # ----- 学习表格 ▲ ----------------------------------
-
-    s_body_suffix = '</body>\n'
-    s_html_suffix = '</html>\n'
-
-    s_total = s0 + s_html_prefix + s_head + s_body_prefix + \
-        s_body + s_body_suffix + s_html_suffix
-
-    return HttpResponse(s_total)
