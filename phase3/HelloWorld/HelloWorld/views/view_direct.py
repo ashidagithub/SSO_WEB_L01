@@ -73,6 +73,7 @@ def vdhtml3(request):
 
     return HttpResponse(s_total)
 
+'''
 def index(request):
     '将 vi1-3 html 放进目录'
 
@@ -96,3 +97,4 @@ def index(request):
         s_body + s_body_suffix + s_html_suffix
 
     return HttpResponse(s_total)
+'''
