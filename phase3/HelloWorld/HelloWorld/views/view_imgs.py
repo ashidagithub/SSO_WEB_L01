@@ -2,7 +2,7 @@ from django.http import HttpResponse
 
 
 def vihtml1(request):
-    '分段式返回一个 HTML 文本 + img 新标签'
+    '显示一张指定的静态图片并调整大小'
 
     s0 = '<!DOCTYPE html>\n'
     s_html_prefix = '<html>\n'
@@ -27,7 +27,7 @@ def vihtml1(request):
 
 
 def vihtml2(request):
-    '分段式返回一个 HTML 文本 + img（含链接）'
+    '练习带链接的图片'
 
     s0 = '<!DOCTYPE html>\n'
     s_html_prefix = '<html>\n'
@@ -52,7 +52,7 @@ def vihtml2(request):
 
 
 def vihtml3(request):
-    '上海市地图，分区域创造链接-图像映射 '
+    '上海市地图，分区域创造链接-图像映射技术 '
 
     '''
     方法：
