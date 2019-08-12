@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>良爸教程2019</title>
+</head>
+
+<body>
+  <h3>{{var_title}}</h3>
+
+  <table width="800" border="1" cellpadding="0" cellspacing="0">
+
+    <tr>
+      <th>No</th>
+      <th>周一</td>
+      <th>周二</td>
+      <th>周三</td>
+      <th>周四</td>
+      <th>周五</td>
+    </tr>
+
+    {% for les in var_lessons %}
+    <tr>
+      <td>第{{les.0}}节课</td>
+      <td>{{les.1}}</td>
+      <td>{{les.2}}</td>
+      <td>{{les.3}}</td>
+      <td>{{les.4}}</td>
+      <td>{{les.5}}</td>
+    </tr>
+    {% endfor %}
+
+  </table>
+
+</body>
+
+</html>

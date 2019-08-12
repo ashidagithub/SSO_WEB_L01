@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>良爸教程2019</title>
+</head>
+
+<body>
+  <h3>{{var_title}}</h3>
+
+  <table width="800" border="1" cellpadding="0" cellspacing="0">
+    <tr>
+      <th>No</th>
+    </tr>
+
+
+    {% for n in var_numbers %}
+    <tr>
+      <td>第{{n}}节课</td>
+    </tr>
+    {% endfor %}
+
+
+  </table>
+
+</body>
+
+</html>

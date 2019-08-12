@@ -9,7 +9,7 @@ def vihtml1(request):
     s_head = '<head><meta charset="utf-8"><title>良爸教程2019</title></head>\n'
     s_body_prefix = '<body>\n'
 
-    s_body = '<h3>练习图片</h3>'
+    s_body = '<h3>练习图片</h3>\n'
     # 要在settings.py 中加上 STATIC_ROOT 和 STATICFILES_DIRS 的设置内容
     img_path = '\\static\\images\\myimg.png'
     s_body += '<p><img src=%s alt="my first image"></p>\n' % img_path
@@ -34,7 +34,7 @@ def vihtml2(request):
     s_head = '<head><meta charset="utf-8"><title>良爸教程2019</title></head>\n'
     s_body_prefix = '<body>\n'
 
-    s_body = '<h3>练习带链接的图片</h3>'
+    s_body = '<h3>练习带链接的图片</h3>\n'
     # 要在settings.py 中加上 STATIC_ROOT 和 STATICFILES_DIRS 的设置内容
     img_path = '\\static\\images\\myimg.png'
     img_link = 'http://www.baidu.com'
@@ -88,7 +88,7 @@ def vihtml3(request):
     s_head = '<head><meta charset="utf-8"><title>良爸教程2019</title></head>\n'
     s_body_prefix = '<body>\n'
 
-    s_body = '<h3>练习为图片分区域创建链接</h3>'
+    s_body = '<h3>练习为图片分区域创建链接</h3>\n'
     # 要在settings.py 中加上 STATIC_ROOT 和 STATICFILES_DIRS 的设置内容
     img_path = '\\static\\images\\map_of_shanghai.jpg'
     # 注意 usemap
