@@ -10,7 +10,7 @@ for row in range(1,6):
             row_data.append(row)
         else:
             row_data.append(random.choice(all_lessons))
-        print(row_data)
+        #print(row_data)
     var_lessons.append(row_data)
 
-print(var_lessons)
+#print(var_lessons)
